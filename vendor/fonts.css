@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../vendor/fonts/Poppins-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../vendor/fonts/Poppins-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
