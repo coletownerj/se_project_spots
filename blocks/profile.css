@@ -33,6 +33,7 @@
 .profile__description {
   margin: 0;
   max-width: 420px;
+  color: rgba(33, 33, 33, 0.7);
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -56,6 +57,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
+  cursor: pointer;
 }
 
 .profile__edit-button:hover {
@@ -69,7 +71,7 @@
   width: 149px;
   height: 52px;
   border-radius: 8px;
-  border-style: none;
+  border: none;
   background-color: #212121;
   color: #fcf5e5;
   align-self: flex-end;
@@ -80,6 +82,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
+  cursor: pointer;
 }
 
 .profile__add-button:hover {
