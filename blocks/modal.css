@@ -79,6 +79,11 @@
   box-sizing: border-box;
 }
 
+.modal__input:hover {
+  cursor: pointer;
+  border: 1px solid #212121;
+}
+
 .modal__input::placeholder {
   color: #2121214d;
 }
