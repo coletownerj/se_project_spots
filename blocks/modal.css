@@ -12,7 +12,7 @@
   padding: 10px;
 }
 
-.modal-is-opened {
+.modal_is-opened {
   visibility: visible;
 }
 
@@ -30,10 +30,16 @@
   height: 40px;
   padding: 0;
   position: absolute;
+  background-color: none;
   top: 32px;
   right: 50px;
   opacity: 0.4;
   border: none;
+}
+
+.modal__close-btn:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 
 .modal__title {
